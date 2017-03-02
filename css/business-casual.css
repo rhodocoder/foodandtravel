@@ -3,8 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-.brand,
-.address-bar {
+.img-des{
+  
+}
+.img.header {
   text-align: center;
   background: url('http://www.yoganonymous.com/system/image_assets/images/000/031/727/original/beach_yoga_sequence.jpg?1470674576') no-repeat center center fixed;
   background-size: cover;
@@ -82,10 +84,7 @@ hr {
     border-color: #999999;
 }
 
-.brand,
-.address-bar {
-    display: none;
-}
+
 
 .navbar-brand {
     text-transform: uppercase;
@@ -106,6 +105,10 @@ hr {
     min-width: 100%;
 }
 
+.img-des,
+.img-des2 {
+    display: none;
+}
 .brand-before,
 .brand-name {
     text-transform: capitalize;
@@ -168,7 +171,7 @@ footer p {
     overflow: hidden;
 }
 @media screen and (min-width:768px) {
-    .brand {
+    .img.des {
         display: inherit;
         margin: 0;
         text-align: right;
@@ -196,7 +199,7 @@ footer p {
         margin-right: 25px;
     }
 
-    .address-bar {
+    .img-des2 {
         display: inherit;
         margin: 0;
         padding: 0 150px 400px;
