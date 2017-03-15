@@ -160,14 +160,6 @@ footer p {
 
 @media screen and (min-width:768px) {
 
-    .food{
-        display:inherit;
-        margin:0;
-    }
-    .travel{
-        display:inherit;
-        margin:0;
-    }
     .top-divider {
         margin-top: 0;
     }
